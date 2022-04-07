@@ -1,0 +1,52 @@
+@layer utilities {
+  input:focus-visible {
+    outline: none;
+  }
+
+  /* responsiveMenu */
+  /* .responsiveMenu_active {
+    transform: translateX(0);
+  } */
+
+  /* .flex_important {
+    display: flex;
+  }
+
+  .hidden_important {
+    display: none;
+  } */
+
+  /* .primaryButton_anime:hover {
+    background-color: #ffb300;
+  }
+
+  .secondaryButton_anime:hover {
+    @apply bg-secondary;
+  } */
+
+  /* Media Queries */
+
+  /* @media screen and (min-width: 1279px) {} */
+
+  /* @media screen and (min-width: 1535px) {} */
+
+  @media screen and (min-width: 1023px) {
+    html {
+      font-size: 15px;
+    }
+  }
+
+  /* @media screen and (max-width: 767px) {} */
+
+  @media screen and (max-width: 639px) {
+    html {
+      font-size: 14px;
+    }
+  }
+
+  @media screen and (max-width: 399px) {
+    html {
+      font-size: 13px;
+    }
+  }
+}
